@@ -13,7 +13,7 @@ defmodule P0SmokeTest.MixProject do
 
   def application do
     [
-      mod: {P0SmokeTest, []},
+      # mod: {P0SmokeTest, []},
       extra_applications: [:logger]
     ]
   end
