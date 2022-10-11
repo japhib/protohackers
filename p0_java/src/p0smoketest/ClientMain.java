@@ -22,7 +22,7 @@ public class ClientMain extends Thread {
         }
 
         for (int i = 0; i < numThreads; i++) {
-            Thread.sleep(400);
+//            Thread.sleep(400);
             semaphore.release();
         }
 
